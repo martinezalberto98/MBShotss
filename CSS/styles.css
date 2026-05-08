@@ -1517,6 +1517,30 @@
   margin-top: 0;
 }
 
+.gallery-view-more {
+  margin: 14px 0 10px;
+  text-align: right;
+}
+
+.view-more-btn {
+  display: inline-block;
+  font-family: var(--nav-font);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent-color);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-color);
+  padding-bottom: 2px;
+  transition: opacity 0.2s;
+}
+
+.view-more-btn:hover {
+  opacity: 0.7;
+  color: var(--accent-color);
+}
+
 /*--------------------------------------------------------------
 # Gallery Grid
 --------------------------------------------------------------*/
